@@ -370,6 +370,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/power-libperfmgr/etc/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # QMI
+TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
+
 PRODUCT_PACKAGES += \
     libjson
 
