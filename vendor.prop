@@ -159,6 +159,9 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
 
+# Incremental FS
+ro.incremental.enable=yes
+
 # Keystore
 ro.hardware.keystore_desede=true
 
