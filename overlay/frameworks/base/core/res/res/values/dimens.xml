@@ -28,6 +28,9 @@
          -->
     <dimen name="status_bar_height_portrait">@dimen/status_bar_height_default</dimen>
 
+    <!-- Adjust the icon padding in status bar for rounded corners -->
+    <dimen name="rounded_corner_content_padding">8dp</dimen>
+
     <!-- Default adjustment for the software rounded corners since corners are not perfectly
         round. This value is used when retrieving the "radius" of the rounded corner in cases
         where the exact bezier curve cannot be retrieved.  This value will be subtracted from
