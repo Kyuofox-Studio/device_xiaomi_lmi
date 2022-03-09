@@ -9,4 +9,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     kscope_lmi-userdebug \
+    kscope_lmi-user \
     kscope_lmi-eng
