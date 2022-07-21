@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lmi.mk
+    $(LOCAL_DIR)/kscope_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lmi-userdebug \
-    lineage_lmi-eng
+    kscope_lmi-userdebug \
+    kscope_lmi-eng
