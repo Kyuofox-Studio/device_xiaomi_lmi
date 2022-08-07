@@ -12,6 +12,9 @@ ifeq ($(OVERRIDE_TARGET_FLATTEN_APEX),true)
 PRODUCT_PRODUCT_PROPERTIES += ro.apex.updatable=false
 endif
 
+# Project ID Quota
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
