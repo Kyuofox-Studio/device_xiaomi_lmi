@@ -1,8 +1,17 @@
 # Dolby
 vendor.dolby.hardware.dms::IDms		                                             u:object_r:hal_dms_hwservice:s0
 
+# Fingerprint
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemon         u:object_r:hal_fingerprint_hwservice:s0
 vendor.xiaomi.hardware.fingerprintextension::IXiaomiFingerprint                 u:object_r:hal_fingerprint_hwservice:s0
+
+# MI Features
 vendor.xiaomi.hardware.mlipay::IMlipayService                                   u:object_r:hal_mlipay_hwservice:s0
 vendor.xiaomi.hardware.motor::IMotor                                            u:object_r:hal_motor_hwservice:s0
 vendor.xiaomi.hardware.touchfeature::ITouchFeature                              u:object_r:hal_touchfeature_hwservice:s0
+
+# MI Sys
+vendor.xiaomi.hardware.misys::IMiSys                                                 u:object_r:hal_misys_xiaomi_hwservice:s0
+
+# Xiaomi Postproc
+vendor.xiaomi.hardware.campostproc::IMiPostProcService                               u:object_r:hal_camerapostproc_xiaomi_hwservice:s0
