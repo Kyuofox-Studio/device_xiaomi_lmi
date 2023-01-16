@@ -11,16 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lmi device
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
-# Inherit some common Kaleidoscope stuff.
-$(call inherit-product, vendor/kscope/target/product/mobile.mk)
+# Inherit some common Arrow stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := kscope_lmi
+PRODUCT_NAME := arrow_lmi
 PRODUCT_DEVICE := lmi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi K30 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_SYSTEM_NAME := lmi
+
+DEVICE_MAINTAINER := Kyuofox
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
