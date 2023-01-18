@@ -25,4 +25,5 @@ cc_library_shared {
     shared_libs: ["liblog"],
     header_libs: ["libhardware_headers"],
     vendor: true,
+    overrides: ["lights.kona"],
 }
