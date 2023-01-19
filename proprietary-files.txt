@@ -913,6 +913,10 @@ vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
+# Lights - from LA.UM.9.12.r1-15100-SMxx50.QSSI13.0
+vendor/lib/hw/lights.kona.so|5b028de820644da9ff3561c7731d49c2e95e34eb
+vendor/lib64/hw/lights.kona.so|0ec0a91a6187016f1e7b421685a08a6cb59349a7
+
 # Listen
 vendor/lib/libadpcmdec.so
 vendor/lib/libcapiv2svacnn.so

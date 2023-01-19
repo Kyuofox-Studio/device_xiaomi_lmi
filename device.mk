@@ -308,8 +308,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.qti.xiaomi_lmi \
-    lights.xiaomi_lmi
+    android.hardware.lights-service.qti.xiaomi_lmi
 
 # Media
 PRODUCT_PACKAGES += \
