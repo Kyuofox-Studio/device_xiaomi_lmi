@@ -27,7 +27,7 @@ $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-kscope
+    $(LOCAL_PATH)/overlay-yaap
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
@@ -41,7 +41,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/usb/etc
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
+scr_resolution := 1080
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
