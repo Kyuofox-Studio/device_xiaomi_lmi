@@ -252,6 +252,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1.vendor \
     android.hardware.gnss@2.1.vendor
 
+PRODUCT_PACKAGES += \
+    libloc_net_iface \
+    liblocdiagiface
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
